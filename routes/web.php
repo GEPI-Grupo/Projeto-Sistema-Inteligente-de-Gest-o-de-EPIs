@@ -24,14 +24,14 @@ Route::get('/dashboard', function () {
 
 
 
-// Route::get('/', function () {
-//     return view('portfolio');
-// });
+ Route::get('/', function () {
+     return view('portfolio');
+ });
 
 
-// Route::get('/teste', [TesteController::class, 'index'])->name('teste');
+ Route::get('/teste', [TesteController::class, 'index'])->name('teste');
 
-// Route::post('/teste', [TesteController::class, 'index'])->name('teste');
+ Route::post('/teste', [TesteController::class, 'index'])->name('teste');
 
 
 ?>

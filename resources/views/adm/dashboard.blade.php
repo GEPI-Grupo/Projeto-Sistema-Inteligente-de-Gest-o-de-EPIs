@@ -67,18 +67,26 @@
                 <p>Acessos, cadastro e consulta de Fornecedores</p>
             </a>
 
-
             <a href="#" class="menu-card">
                 <span class="menu-icon">&#128230;</span>
                 <h3>Controlar estoque</h3>
                 <p>Entradas, saídas e quantidade</p>
             </a>
 
-            
+            <a href="/movimentacoes" class="menu-card">
+                <span class="menu-icon">&#128197;</span>
+                <h3>Gerenciar Movimentação</h3>
+                <p>Entregas, devoluções, confirmação e trocas</p>
+            </a>
 
+            <a href="#" class="menu-card">
+                <span class="menu-icon">&#128276;</span>
+                <h3>Alertas</h3>
+                <p>Validade e reposição de EPIs</p>
+            </a>
+            
         </section>
     </main>
-
 </body>
 
 </html>

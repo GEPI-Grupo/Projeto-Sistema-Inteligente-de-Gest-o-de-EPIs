@@ -24,14 +24,14 @@ Route::get('/dashboard', function () {
 
 
 
-//  Route::get('/', function () {
-//      return view('portfolio');
-//  });
+ Route::get('/dashboard', function () {
+     return view('adm.dashboard');
+ });
 
 
 //  Route::get('/teste', [TesteController::class, 'index'])->name('teste');
 
-//  Route::post('/teste', [TesteController::class, 'index'])->name('teste');
+  Route::post('/logout', [AuthController::class, 'logout'])->name('logout')->middleware('auth');
 
 
 // ?>

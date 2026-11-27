@@ -7,13 +7,9 @@
 </head>
 <body>
 <header>
-    
-
 <h1>Sistema de Gestão de EPIs</h1>
     <h2>Área do Administrador</h2>
-    <p>Bem vindo ao Sistema de gestão de EPIs, {{ Auth::user()->name 
-        
-?? 'Administrador'}}</p>
+    <p>Bem vindo ao Sistema de gestão de EPIs, {{ Auth::user()->name ?? 'Administrador'}}</p>
 
 <form action="{{route ('logout') }}" method="POST" style="display: inline;">
 @csrf 
@@ -49,6 +45,8 @@
         </div>
     </section>
 
+
+    
 </main>
     
 

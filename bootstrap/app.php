@@ -14,6 +14,7 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->web(append: [
+            //tem que ser com letra maiscula o começo ex(App, Models) e nao (app, models).
              \App\Http\Middleware\HandleInertiaRequests::class
         ]);
     })

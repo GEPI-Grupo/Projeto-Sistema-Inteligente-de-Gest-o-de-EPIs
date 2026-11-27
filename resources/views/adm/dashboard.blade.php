@@ -45,31 +45,7 @@
         </div>
     </section>
 
-    <h2 class="section-titulo">Trocas de EPI</h2>
-        <section class="card-trocas">
-            <h3>Registrar Nova Troca</h3>
-            <form action="#" method="POST">
-                @csrf
-                <div class="form-grid">
-                    <div class="form-group">
-                        <label for="codigo">Protocolo da Troca</label>
-                        <input type="text" id="codigo" name="codigo" value="TR-2026-01" readonly>
-                    </div>
 
-                    <div class="form-group">
-                        <label for="funcionario">Funcionário</label>
-                        <input type="text" id="funcionario" name="funcionario" placeholder="Nome do funcionário" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="epi">EPI</label>
-                        <select id="epi" name="epi" required>
-                            <option value="">Selecione...</option>
-                            <option value="capacete">Capacete</option>
-                            <option value="luva">Luva de Proteção</option>
-                            <option value="bota">Bota de Segurança</option>
-                        </select>
-                    </div>
 
 
 </main>

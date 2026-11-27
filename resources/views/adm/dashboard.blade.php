@@ -67,6 +67,16 @@
                 <p>Acessos, cadastro e consulta de Fornecedores</p>
             </a>
 
+
+            <a href="#" class="menu-card">
+                <span class="menu-icon">&#128230;</span>
+                <h3>Controlar estoque</h3>
+                <p>Entradas, saídas e quantidade</p>
+            </a>
+
+            
+
+        </section>
     </main>
 
 </body>
